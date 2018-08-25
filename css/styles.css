@@ -1,0 +1,375 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+/* CSS Document */
+
+body {
+  background-color: #fafbfc;
+	font-family: 'Josefin Sans', sans-serif;
+	color: #333;
+	line-height: 1.2em;
+  font-size: 16px !important;
+  margin: 0;
+  position: relative;
+}
+ul, 
+li {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 16px;
+	color: #333;
+}
+a {
+	text-decoration: none;
+}
+a:hover, a:focus {
+  text-decoration: underline;
+}
+a img{
+	border: none 0px #fff;
+}
+article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+#maincontent {
+  background-color: #f3f3f3;
+  min-height: 100%;
+}
+#footer {
+  background-color:   #111;
+  margin-top: -50px;
+  color: #fff;
+  font-size: 14px;
+  letter-spacing: 1px;
+  padding: 25px;
+  text-align: center;
+  text-transform: uppercase;
+  max-width: 100%;
+}
+#footer a{
+  color: #fff;
+  text-decoration: underline;
+}
+/* ====================== Navigation ====================== */
+nav {
+  max-width: 100%;
+  background-color: #fff;
+  text-align:center;
+  padding: 30px;
+  box-shadow: 5px 5px 25px 0 rgba(46,61,73,.2);
+}
+nav h1 {
+  margin: auto;
+}
+nav h1 a {
+  color: #ff4400;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+#breadcrumb {
+    padding: 10px 40px 16px;
+    list-style: none;
+    background-color: #eee;
+    margin: 0;
+    width: 100%;
+}
+
+/* Display list items side by side */
+#breadcrumb li {
+    display: inline;
+    font-weight: 400;
+}
+/* Add a color to all links inside the list */
+#breadcrumb li a {
+    color: #053763;
+    text-decoration: none;
+}
+
+/* Add a color on mouse-over */
+#breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+}
+/* ====================== Restaurant Filtering ====================== */
+.about {
+  text-align: center;
+  width: 100%;
+  height: auto;
+  background-color: #111;
+  padding-bottom: 14px;
+}
+.about h2 {
+  padding-top: 14px;
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: normal;
+  line-height: 1em;
+}
+.about p{
+  max-width: 800px;
+  margin: auto;
+  color: #fff;
+}
+
+/* ====================== Restaurant Listing ====================== */
+#projects-list {
+  margin: auto;
+  padding: 30px 15px 60px;
+  text-align: center;
+  width: 90%;
+
+}
+#projects-list li {
+  box-shadow: 5px 5px 25px 0 rgba(46,61,73,.2);
+  background-color: #fff;
+  font-family: 'Josefin Sans', sans-serif;
+  list-style: none;
+  min-height: 300px;
+  padding: 0 30px 25px;
+  margin: 10px 0 30px 0;
+  text-align: center;
+  max-width: 100%;
+  border-radius: 6px;
+}
+.project-img {
+  padding-top: 40px;
+  display: block;
+  max-width: 100%;
+  min-height: 180px;
+  min-width: 100%;
+}
+#projects-list li h2 {
+  color: #ff4400;
+  font-family: 'Josefin Sans', sans-serif;;
+  font-size: 14pt;
+  padding-top: 50px;
+  font-weight: 200;
+  letter-spacing: 0;
+  line-height: 1.3;
+  margin: 20px 0 10px;
+  text-transform: uppercase;
+}
+#projects-list p {
+  margin: 0;
+  font-size: 16px;
+}
+#projects-list li a {
+  background-color: #ff4400;
+  color: #fff;
+  display: inline-block;
+  font-size: 16px;
+  letter-spacing: 3px;
+  margin: 15px 0 0;
+  padding: 8px 30px 10px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 14px;
+}
+#projects-list li a:hover{
+  text-decoration: underline;
+}
+
+
+/* ====================== Restaurant Details ====================== */
+.inside header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+.inside #footer {
+  bottom: 0;
+  position:relative;
+  max-width: 100%;
+}
+#project-name {
+  color: #ff4400;
+  font-family: Arial,sans-serif;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  margin-top: 200px;
+  text-transform: uppercase;
+  line-height: 1.2em;
+}
+#project-description {
+  font-size: 16px;
+  margin: 10px 0px;
+  text-align: center;
+}
+#project-developer {
+  background-color: #333;
+  color: #ddd;
+  font-size: 10pt;
+  font-weight: 300;
+  letter-spacing: 10px;
+  margin: 0 0 20px;
+  padding: 2px 0;
+  text-align: center;
+  text-transform: uppercase;
+	width: 100%;
+}
+#project-container{
+  border-bottom: 1px solid #d9d9d9;
+  border-top: 1px solid #fff;
+  max-width: 90%;
+  min-width: 90%;
+  margin: auto;
+}
+#details-container {
+ width: 90%;
+ margin: 30px auto 80px auto;
+
+
+}
+#details-container h2 {
+  color: #ff4400;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding-bottom: 1pt;
+  text-align: center;
+}
+#details-list {
+  margin: 20px 0;
+  padding: 0;
+}
+#details-list li {
+  background-color: #fff;
+  line-height: 2em;
+  display: block;
+  list-style-type: none;
+  margin: 20px auto 40px auto;
+  overflow: hidden;
+  padding: 25px;
+  position: relative;
+  box-shadow: 5px 5px 25px 0 rgba(46,61,73,.2);
+  border-radius: 6px;
+}
+#details-list li p {
+  margin: 0 0 8px;
+}
+.details-heading{
+  background: #fafbfc;
+  width: 96%;
+  border-radius: 6px;
+  padding: 2px;
+  text-align: center;
+}
+.built{
+  color: #ff4400;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 16px;
+  font-weight: 700; 
+}
+.dHeading{
+  background:  #ff4400;
+  color: #fff;
+  font-size: 18px;
+  letter-spacing: 3px;
+  border-radius: 12px;
+}
+.details{
+  padding-top: 16px; 
+}
+.details h4{
+  text-align: center;
+  border: 1px solid #ff4400;
+  border-radius: 6px;
+  width: 150px;
+  margin: auto;
+}
+
+@media screen and (min-width: 500px){
+  .details-heading{
+    display: grid;
+    text-align: left;
+    padding: 12px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-areas: "a b";
+  }
+  .built{
+    grid-area: a;
+  }
+  .date{
+    grid-area: b;
+  }
+  .dHeading{
+    max-width: 50%;
+    text-align: center;
+    letter-spacing: 1px;
+  }
+  #project-container,
+  #details-container {
+     max-width: 80%;
+     min-width: 80%;
+  }
+  nav h1 a {
+    font-weight: 700;
+    letter-spacing: 0.3em;
+  }
+}
+
+@media screen and (max-width: 700px) and (min-width: 501px){
+  #projects-list{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "a b";
+  }
+  #projects-list li{
+   margin: 12px;
+  }
+  .project-img {
+     min-height: 100px;
+  }
+  #projects-list li a {
+    font-size: 14px;
+    letter-spacing: 1px;
+    border-radius: 12px;
+    padding: 4px 10px 5px;
+  }
+  #projects-list p {
+    font-size: 16px;
+  }
+  #projects-list li h2 {
+    font-size: 14px;
+    font-weight: 700;
+  }
+   .dHeading{
+    max-width: 45%;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width:701px){
+   #projects-list{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "a b";
+    max-width: 980px;
+  }
+   #projects-list li{
+     margin: 16px;
+   }
+   #projects-list li a {
+    font-size: 14px;
+    letter-spacing: 2px;
+  }
+   #project-container, 
+   #details-container{
+    max-width: 70vw;
+    min-width: 70vw;
+  }
+  #details-list li .details {
+    font-size: 16px;
+    width: 83%;
+    margin: auto;
+  }
+   .details-heading{
+    width: 80%;
+    margin: auto;
+  }
+}
+
